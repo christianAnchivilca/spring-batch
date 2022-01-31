@@ -1,0 +1,11 @@
+DROP TABLE persona IF EXISTS;
+
+
+CREATE TABLE persona(
+
+ id BIGINT IDENTITY NOT NULL PRIMARY KEY,
+ primerNombre VARCHAR(50),
+ apellido VARCHAR(50),
+ dni VARCHAR(10)
+
+);
